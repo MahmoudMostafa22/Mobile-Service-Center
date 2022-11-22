@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.themobile_servicecenter.Service">
+   <children>
+      <Button layoutX="510.0" layoutY="322.0" mnemonicParsing="false" onAction="#proceed" text="Proceed">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="35.0" layoutY="322.0" mnemonicParsing="false" onAction="#BackToMain" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="35.0" layoutY="30.0" prefHeight="60.0" prefWidth="542.0" text="Select Your Service">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="182.0" text="Type Your Device" />
+      <Label layoutX="83.0" layoutY="256.0" text="Error" />
+      <TextField fx:id="TypeDeviceTextField" disable="true" layoutX="215.0" layoutY="178.0" />
+      <TextField fx:id="ErrorNameTextField" disable="true" layoutX="215.0" layoutY="252.0" />
+      <Label layoutX="83.0" layoutY="216.0" text="New Device" />
+      <TextField fx:id="NewDevicetextfield" disable="true" layoutX="215.0" layoutY="212.0" />
+      <RadioButton fx:id="Sell_RB" layoutX="423.0" layoutY="182.0" mnemonicParsing="false" onAction="#sell" text="Purchase" />
+      <RadioButton fx:id="Replace_RB" layoutX="424.0" layoutY="216.0" mnemonicParsing="false" onAction="#replace" text="Replace Your Device" />
+      <RadioButton fx:id="Repair_RB" layoutX="425.0" layoutY="248.0" mnemonicParsing="false" onAction="#repair" text="Repair" />
+   </children>
+</AnchorPane>

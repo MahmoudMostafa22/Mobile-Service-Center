@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.themobile_servicecenter.StartProgram">
+   <children>
+      <Button fx:id="WorkerButton" layoutX="273.0" layoutY="207.0" mnemonicParsing="false" onAction="#Log_to_Worker" text="Worker">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="266.0" layoutY="257.0" mnemonicParsing="false" onAction="#Sign_Up_Customer" text="Customer">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="76.0" prefHeight="96.0" prefWidth="514.0" text="Welcome To Our Service Center" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

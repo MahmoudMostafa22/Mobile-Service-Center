@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.themobile_servicecenter.WorkerLogin">
+   <children>
+      <Label layoutX="230.0" layoutY="49.0" prefHeight="60.0" prefWidth="134.0" text="Hello Worker">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="176.0" text="ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ID_TextField" layoutX="165.0" layoutY="173.0" onInputMethodTextChanged="#Input1" prefHeight="26.0" prefWidth="270.0" />
+      <Button fx:id="LoginButton" layoutX="496.0" layoutY="343.0" mnemonicParsing="false" onAction="#Login" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="64.0" layoutY="231.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Password_TextField" layoutX="165.0" layoutY="228.0" onAction="#Login" onInputMethodTextChanged="#input2" prefHeight="26.0" prefWidth="270.0" />
+      <TextArea fx:id="WorkerLoginTextArea" layoutX="452.0" layoutY="145.0" prefHeight="110.0" prefWidth="133.0" promptText="Please Enter your ID and Password" />
+      <Button fx:id="BackButton" layoutX="64.0" layoutY="343.0" mnemonicParsing="false" onAction="#BackToMain" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
